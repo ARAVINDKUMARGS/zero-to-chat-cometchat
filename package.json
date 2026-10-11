@@ -1,0 +1,11 @@
+{
+  "name": "devconnect",
+  "version": "1.0.0",
+  "private": true,
+  "description": "DevConnect - real-time developer collaboration hub powered by CometChat",
+  "scripts": {
+    "build": "npm --prefix client install && npm --prefix client run build",
+    "start": "npm --prefix server install && npm --prefix server start"
+  },
+  "engines": { "node": ">=18" }
+}
